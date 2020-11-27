@@ -1,0 +1,14 @@
+- name: gc_20_fourier_50
+  preprocess:
+    
+    lp_blur_size: 21
+    mode: 1
+  seed_gen:
+    mode: 1
+    threshold: 0.20
+  segmentation:
+    grabcut: null
+  fourier:
+    percentile: 50
+    plot: false
+
